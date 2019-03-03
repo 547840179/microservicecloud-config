@@ -35,8 +35,8 @@ eureka:
     prefer-ip-address: true
 
 info:
-  app.name: noodles-microservicecloud-springcloudconfig01
-  company.name: www.google.com
+  app.name: xiawenjie-microservicecloud
+  company.name: www.xiawenjie.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 ---
@@ -70,6 +70,7 @@ eureka:
   instance:
     instance-id: dept-8001.com
     prefer-ip-address: true
+
 
 info:
   app.name: xiawenjie-microservicecloud
