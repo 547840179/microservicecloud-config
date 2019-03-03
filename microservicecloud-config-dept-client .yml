@@ -20,7 +20,8 @@ spring:
       initial-size: 5
       max-total: 5
       max-wait-millis: 200
-mybatis:
+
+mybatis: 
     config-location: classpath:mybatis/mybatis.cfg.xml
     type-aliases-package: xia.wenjie.springcloud.entities
     mapper-locations:
@@ -39,7 +40,9 @@ info:
   company.name: www.xiawenjie.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+  
 ---
+
 server:
   port: 8001
 spring:
@@ -57,6 +60,7 @@ spring:
       initial-size: 5
       max-total: 5
       max-wait-millis: 200
+      
 mybatis:
     config-location: classpath:mybatis/mybatis.cfg.xml
     type-aliases-package: xia.wenjie.springcloud.entities
